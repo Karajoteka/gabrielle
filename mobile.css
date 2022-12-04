@@ -91,8 +91,8 @@ body {
 @media screen and (min-width: 1020px) {
   .container {
     width: 600px;
-    height: 400px;
-    margin: 150px auto;
+    height: auto;
+    margin: 100px auto;
     display: grid;
     grid-template-columns: 50% 50%;
     min-width: 600px;
@@ -106,6 +106,15 @@ body {
     width: 100%;
   }
   .info {
-    margin: 20px 40px 30px 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .title {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .description {
+    padding-bottom: 10px;
   }
 }
